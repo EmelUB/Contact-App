@@ -1,0 +1,32 @@
+#container{
+    width: 400px;
+    background-color: aliceblue;
+    padding: 20px;
+    border:2px solid black;
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list{
+    margin: 15px 0;
+}
+
+li{
+    background-color: antiquewhite;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+
